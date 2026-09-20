@@ -16,22 +16,22 @@
         "PREFIX": {
             "description": "Command prefix for the bot (e.g. . or ! or /)",
             "value": ".",
-            "required": false
+            "required": true
         },
         "BOT_NAME": {
             "description": "Display name for your bot instance",
             "value": "CORTANA MD",
-            "required": false
+            "required": true
         },
         "OWNER_NUMBERS": {
             "description": "Comma-separated owner phone numbers with country code (e.g. 254113374182,255619406167)",
-            "value": "",
-            "required": false
+            "value": "254754323705",
+            "required": true
         },
         "SESSION_DIR": {
             "description": "Directory to store session files",
             "value": "./session",
-            "required": false
+            "required": true
         }
     },
     "buildpacks": [
